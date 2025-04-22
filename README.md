@@ -177,4 +177,14 @@ To clone and run locally:
 git clone https://github.com/abdalrahmenyousifMohamed/DepthScan.git
 cd DepthScan
 pip install -r requirements.txt
+
+Then create a .env file with your API keys:
+
+cp .env.example .env
+Edit the .env file to add your OpenAI, Serper and other settings as needed, e.g.:
+
+OPENAI_API_KEY=<your_key>
+SEARCH_PROVIDER=serper  # or set to openai
+SERPER_API_KEY=<your_key>
+
 python iterative_example.py
