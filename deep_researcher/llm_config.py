@@ -69,7 +69,7 @@ provider_mapping = {
         "api_key": "ollama",  # Required by OpenAI client but not used
     }
 }
-Custom = True
+Custom = False
 if Custom:
     provider_mapping[functionary_model] = {
         "model": OpenAIChatCompletionsModel,  # or OpenAIResponsesModel based on your model type
