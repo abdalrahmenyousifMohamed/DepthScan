@@ -1,0 +1,11 @@
+openai
+python-dotenv
+aiohttp
+asyncio
+beautifulsoup4
+lxml
+pydantic
+openai-agents==0.0.7
+md2pdf
+trustcall==0.0.26
+langchain-openai==0.2.8
