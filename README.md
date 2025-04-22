@@ -1,10 +1,10 @@
-# 🔍 Deep Research Framework: Plan, Search, Self-Reflect, and Write
+#  Deep Research Framework: Plan, Search, Self-Reflect, and Write
 
 This repository implements a multi-agent AI framework for conducting deep, high-quality research using a systematic methodology. Inspired by human-like reasoning and self-reflection techniques, the system breaks down complex queries, gathers information from the web, and composes well-cited research reports.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - **Structured Workflow**: Plan → Search → Reflect → Write.
 - **Mixture of LLM Agents (MoA)**, each with specialized roles.
@@ -16,18 +16,18 @@ This repository implements a multi-agent AI framework for conducting deep, high-
 
 ---
 
-## 🧠 Agent Architecture
+##  Agent Architecture
 
 | Role            | Description                                                             | Model Used                                            |
 |-----------------|-------------------------------------------------------------------------|--------------------------------------------------------|
-| 📋 Planner       | Breaks down user input into actionable queries                         | `Qwen/Qwen2.5-72B-Instruct-Turbo`                     |
-| 📄 Summarizer    | Summarizes raw web content into concise, relevant extracts             | `meta-llama/Llama-3.3-70B-Instruct-Turbo`            |
-| 🧱 JSON Extractor| Extracts structured data from summarized content                        | `meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo`       |
-| 📝 Report Writer | Writes a well-structured and sourced research report                   | `deepseek-ai/DeepSeek-V3`                |
+|  Planner       | Breaks down user input into actionable queries                         | `Qwen/Qwen2.5-72B-Instruct-Turbo`                     |
+|  Summarizer    | Summarizes raw web content into concise, relevant extracts             | `meta-llama/Llama-3.3-70B-Instruct-Turbo`            |
+|  JSON Extractor| Extracts structured data from summarized content                        | `meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo`       |
+|  Report Writer | Writes a well-structured and sourced research report                   | `deepseek-ai/DeepSeek-V3`                |
 
 ---
 
-## 🧭 Workflow Overview
+##  Workflow Overview
 
 1. **Planning**
    - Decompose the user query into focused sub-queries.
@@ -41,9 +41,12 @@ This repository implements a multi-agent AI framework for conducting deep, high-
    - Check for knowledge gaps or missing components.
 6. **Writing**
    - Aggregate insights into a clean, coherent research report.
+  
+
+![67ffdfdcc14446d60a2a9d0e_AD_4nXedElgrxG9r72Qx0ASenFOwpU2sg7AqWXy_tReaAVpxwBM_NtjasugR0jQEkACRBulSdUztfUVACbGsEsQkyh9ESADAsPdu1QQzfRQEDyMK3ph9WUorZNwYLfFMFWS7CYIfVOlg](https://github.com/user-attachments/assets/f561a80d-5e01-49ec-bd18-0a2a747bff69)
 
 
-## 🧪 Example Use Case
+##  Example Use Case
 
 **Query**:  
 > "What are the five largest companies in the green/renewable energy sector by market capitalization, and what are their current stock prices?"
@@ -58,7 +61,7 @@ This repository implements a multi-agent AI framework for conducting deep, high-
 
 ---
 
-## 📈 Strengths
+##  Strengths
 
 - Modular & extensible agent pipeline
 - Accurate source selection
@@ -67,12 +70,12 @@ This repository implements a multi-agent AI framework for conducting deep, high-
 
 ---
 
-## 🧩 Future Enhancements
+##  Future Enhancements
 
-- 🔁 **Advanced TTL caching system**
-- 🖼️ **Multi-modal inputs (e.g., charts, infographics)**
-- 🔍 **Entity-aware citation system**
-- 🚀 **Enterprise deployment & monitoring tools**
+-  **Advanced TTL caching system**
+-  **Multi-modal inputs (e.g., charts, infographics)**
+-  **Entity-aware citation system**
+-  **Enterprise deployment & monitoring tools**
 - **Caching Layer**
     - Temporary local cache to avoid repeated web searches.
     - TTL-based refresh system for fresh results in production.
@@ -155,9 +158,6 @@ We use OpenAI models in strategic roles based on performance and cost benchmarks
 
 ---
 
-## 💡 Summary
-
-`strategy2` combines the power of open-source LLMs, modular agent architecture, and structured workflows to automate research with high accuracy and speed. It’s ideal for generating reliable, well-structured insights across domains.
 
 ---
 
@@ -174,7 +174,7 @@ Simple Research Examples (using IterativeResearcher):
 To clone and run locally:
 
 ```bash
-git clone https://github.com/your-org/deep-research-framework.git
-cd deep-research-framework
+git clone https://github.com/abdalrahmenyousifMohamed/DepthScan.git
+cd DepthScan
 pip install -r requirements.txt
 python iterative_example.py
