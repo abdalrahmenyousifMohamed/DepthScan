@@ -10,9 +10,7 @@ This repository implements a multi-agent AI framework for conducting deep, high-
 - **Mixture of LLM Agents (MoA)**, each with specialized roles.
 - **Summarization & Source Ranking** to manage long content.
 - **Self-Reflection Loop** to detect and address knowledge gaps.
-- **Caching Support** to reduce redundant web queries.
 - **JSON Extraction** for structured outputs.
-- **Credible Source Prioritization** using implicit and explicit ranking.
 
 ---
 
