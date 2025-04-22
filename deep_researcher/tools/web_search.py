@@ -160,11 +160,11 @@ class SerperClient:
         
         try:
             result = await ResearchRunner.run(self.filter_agent, user_prompt)
-            # output = result.final_output_as(SearchResults)
-            # return output.results_list
-            output = get_json_output(SearchResults, result)
-            print("Filtered results:", output)
-            return output['results_list']
+            output = result.final_output_as(SearchResults)
+            return output.results_list
+            # output = get_json_output(SearchResults, result) # uncomment if u r using os models
+            # print("Filtered results:", output)
+            # return output['results_list']
         except Exception as e:
             print("Error filtering results:", str(e))
             return results[:max_results]
