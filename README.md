@@ -154,8 +154,6 @@ We use OpenAI models in strategic roles based on performance and cost benchmarks
 - Tool agents are modular and extensible — you can plug in your own web scrapers, knowledge bases, or API wrappers.
 - Language models can be swapped easily via `LLMConfig`.
 
----
-
 
 ---
 
