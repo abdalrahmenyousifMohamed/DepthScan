@@ -161,13 +161,12 @@ We use OpenAI models in strategic roles based on performance and cost benchmarks
 
 ---
 
-#### Sample Output
+# Sample Output
 
-Deep Research (using DeepResearcher) :
-
-- [final_report_electric_vehicle_deep.md](https://github.com/abdalrahmenyousifMohamed/DepthScan/blob/main/examples/sample_output/final_report_electric_vehicle_deep.md)
-Simple Research Examples (using IterativeResearcher):
-- [final_report_electric_vehicle_iterative.md](https://github.com/abdalrahmenyousifMohamed/DepthScan/blob/main/examples/sample_output/final_report_electric_vehicle_iterative.md)
+### Deep Research (using DeepResearcher) :
+   - [final_report_electric_vehicle_deep.md](https://github.com/abdalrahmenyousifMohamed/DepthScan/blob/main/examples/sample_output/final_report_electric_vehicle_deep.md)
+### Simple Research Examples (using IterativeResearcher):
+   - [final_report_electric_vehicle_iterative.md](https://github.com/abdalrahmenyousifMohamed/DepthScan/blob/main/examples/sample_output/final_report_electric_vehicle_iterative.md)
 
 ## 🏁 Getting Started
 
